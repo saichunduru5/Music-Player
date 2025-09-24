@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.music-info h2 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.music-info h3 {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+.controls button {
+  font-size: 22px;
+  margin: 0 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50%;
+  background: #ff758c;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.controls button:hover {
+  background: #ff4f6f;
+}
+
+.progress-container {
+  background: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 6px;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.progress {
+  background: #ff4f6f;
+  height: 100%;
+  width: 0%;
+  border-radius: 5px;
+}
+
+#time {
+  font-size: 12px;
+  color: #333;
+}
